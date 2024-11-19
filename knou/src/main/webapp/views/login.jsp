@@ -1,37 +1,35 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-         pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+         pageEncoding="EUC-KR"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>Î°úÍ∑∏Ïù∏</title>
+    <title>∑Œ±◊¿Œ</title>
 </head>
 <body>
-<center>
-    <h1>Î°úÍ∑∏Ïù∏</h1>
+    <h1>∑Œ±◊¿Œ</h1>
     <hr>
     <form action="login.do" method="post">
         <table border="1" cellpadding="0" cellspacing="0">
             <tr>
-                <td bgcolor="orange">ÏïÑÏù¥Îîî</td>
+                <td bgcolor="orange">æ∆¿Ãµ</td>
                 <td>
-                    <input type="text" name="id" value="${user.id}">
+                    <input type="text" name="id" value="${userVO.id}">
                 </td>
             </tr>
             <tr>
-                <td bgcolor="orange">ÎπÑÎ∞ÄÎ≤àÌò∏</td>
+                <td bgcolor="orange">∫Òπ–π¯»£</td>
                 <td>
-                    <input type="password" name="password" value="${user.password}">
+                    <input type="password" name="password" value="${userVO.password}">
                 </td>
             </tr>
             <tr>
                 <td colspan="2" align="center">
-                    <input type="submit" value="Î°úÍ∑∏Ïù∏">
+                    <input type="submit" value="∑Œ±◊¿Œ">
                 </td>
             </tr>
         </table>
     </form>
     <hr>
-</center>
 </body>
 </html>
